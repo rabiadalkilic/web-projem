@@ -109,7 +109,7 @@
 			let istenilenModel = document.getElementById("aracInput").value.toLowerCase().trim();
 			let cikti = document.getElementById("sonuc");
 			
-			console.log("İstenilen Model: " + istenilenModel");
+			console.log("İstenilen Model: " + istenilenModel);
 			
 			let bulundu = false;
 			
@@ -119,7 +119,7 @@
 					let mesaj = "Dalkılıç " + modeller[i].toUpperCase() + " Araç fiyatı: " + fiyatlar[i];
 					
 					cikti.innerText = mesaj;
-					cikti.style.color = "blue";
+					cikti.style.color = "white";
 					
 					
 					
@@ -129,7 +129,7 @@
 			}
 			if(bulundu == false){
 				cikti.innerText = "Model ismini yanlış girdiniz!";
-				cikti.style.color = "red";
+				cikti.style.color = "white";
 				
 			}
 		}
@@ -139,3 +139,4 @@
 		
 		
 		</html>
+
