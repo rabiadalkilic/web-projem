@@ -9,6 +9,7 @@ Bu proje web tasarım dersi için hazırlanmıştır. içerisinde güncel araba 
 NELER KULLANILDI?
 - HTML
 - CSS
+- JavaScript
 
 NASIL KULLANILIR?
 - Proje klasörünü bilgisayarınıza indirin.
