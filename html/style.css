@@ -1,107 +1,124 @@
-           .anasayfa{
-			   background-color:rgb(158,152,158);
-		   }
-		   div.bolum3{
-			   background-color:black;
-			   width:750px;
-			   display:flex;
-			   flex-direction:column;
-			   justify-content:center;
-			   text-align:center;
-			
-		   }
-		   .bolum3{
-			    display:flex;
-				gap:20px;
-		   }
-		   body{
-			   max-width:1200px;
-			   margin:0 auto;
-			   padding:0 30px;
-		   }
-		   .qxy7{
-			   background-color:rgba(210,252,252,0.8);
-		   }
-		   div.logo{
-			   display:flex;
-			   align-items:center;
-			   justify-content:center;
-			   background-color:white;
-		   }
-		   a{
-			font-size:20px;
-			border-radius:20px;
-			border-style:solid;
-			color:black;
-		   }
-		   nav{
-			   background-color:transparent;
-			   padding:15px 0;
-		    }
-		   .menu ul {
-			   list-style:none;
-			   display:flex;
-			   justify-content:center;
-			   gap:20px; 
-			   margin:0;
-			   padding:0;
-		   }
-		   .menu a{
-			   background-color:white;
-			   color:black;
-			   text-decoration:none;
-			   padding:8px 16px;
-			   border-radius:20px;
-			   border:1px solid #ddd;
-			   font-size:18px;
-		    }
-		   h1{
-			 text-align:center;
-		   }
-		   
-		   
-		   .anasayfa{
-			   background-color:rgb(204,29,43);
-		   }
-		   .bolum1{
-			   background-color:white;
-			   margin-bottom:100px;
-			   border-style:solid;
-			   border-color:white;
-			   border-width:10px;
-		   }
-		   div.soz{
-			   display:flex;
-			   align-items:center;
-			   justify-content:center;
-			   background-color:black;
-			   border-style:dotted;
-			   border-width:8px;
-			   border-color:rgb(204,29,43);
-		   }
-		   .e4{
-			   background-color:rgb(171,167,164);
-		   }
-		   .qx8i{
-			   background-color:rgb(136,151,194);
-		   }
-		   .kesfet{
-			   background-color:rgb(187,193,201);
-		   }
-		   .kesfet1{
-			   display:flex;
-			   flex-direction:column;
-			   justify-content:space-between;
-			   padding:20px;
-		   }
-		   .kesfet1 .bir{
-			   margin-top:auto;
-			   align-self:flex-start;
-		   }
-		   .sagbaslik{
-			   position:absolute;
-			   right:180px;
-			   top:35
-			   0px;
-			   width:400px;
-		   }
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    font-family: sans-serif;
+}
+
+.anasayfa { background-color: rgb(204, 29, 43); }
+.e27 {  background-color: rgb(183, 0, 0); }
+.qxy7 { background-color: rgba(210, 252, 252, 0.8); }
+.e4 { background-color: rgb(171, 167, 164); }
+.qx8i { background-color: rgb(136, 151, 194); }
+.kesfet { background-color: rgb(187, 193, 201); }
+
+div.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: transparent;
+    padding: 15px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.icerik {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.sol {
+    padding-right: 10px;
+}
+
+.sag {
+    padding-left: 10px;
+}
+
+.sag table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Tablo içini beyaz yapar, siyahlık gider */
+    color: black;
+}
+
+.sag table th, .sag table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+div.bolum3 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.bolum3 img {
+    margin-right: 20px;
+}
+
+div.soz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: 8px dotted rgb(204, 29, 43);
+    padding: 20px;
+}
+
+.kesfet1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.sagbaslik{
+	float: right;
+	width: 250px;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	font-size: 14px;
+}
+
