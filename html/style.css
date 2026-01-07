@@ -68,7 +68,7 @@ nav {
 .sag table {
     width: 100%;
     border-collapse: collapse;
-    background-color: white; /* Tablo içini beyaz yapar, siyahlık gider */
+    background-color: white;
     color: black;
 }
 
@@ -121,4 +121,5 @@ h1 {
 	padding: 15px;
 	font-size: 14px;
 }
+
 
